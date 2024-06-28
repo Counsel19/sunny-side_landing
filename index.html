@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <!-- BANNER -->
     <div>
       <section class="banner">
         <!-- Top Nav -->
@@ -16,11 +17,23 @@
           </a>
 
           <ul>
-            <li><a href="">About</a></li>
-            <li><a href=""> Services</a></li>
-            <li><a href=""> Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services"> Services</a></li>
+            <li><a href="#projects"> Projects</a></li>
             <li><a href=""> Contact</a></li>
           </ul>
+          <div class="moble__nav">
+            <button>
+              <img src="./images/icon-hamburger.svg" alt="Menu" />
+
+              <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services"> Services</a></li>
+                <li><a href="#projects"> Projects</a></li>
+                <li><a href=""> Contact</a></li>
+              </ul>
+            </button>
+          </div>
         </nav>
 
         <div class="banner__content">
@@ -29,7 +42,8 @@
         </div>
       </section>
 
-      <section class="why__chooseUs">
+      <!-- WHY CHOOSE US -->
+      <section id="about" class="why__chooseUs">
         <div class="info">
           <div>
             <h5>Transform your brand</h5>
@@ -70,7 +84,8 @@
         </div>
       </section>
 
-      <section class="services">
+      <!-- SERVICES -->
+      <section id="services" class="services">
         <div class="service__item">
           <h5>Graphic design</h5>
           <p>
@@ -87,6 +102,112 @@
           </p>
         </div>
       </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="testimonials">
+        <div>
+          <h5>Client testimonials</h5>
+
+          <!--Wrapper -->
+          <div class="testimonials__wrapper">
+            <!-- Item 1 -->
+            <div class="testimonial__items">
+              <div class="avatar">
+                <img src="./images/image-emily.jpg" alt="emily" />
+              </div>
+
+              <p>
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </p>
+
+              <div>
+                <h6>Emily R.</h6>
+                <span> Marketing Director</span>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="testimonial__items">
+              <div class="avatar">
+                <img src="./images/image-emily.jpg" alt="emily" />
+              </div>
+
+              <p>
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </p>
+
+              <div>
+                <h6>Emily R.</h6>
+                <span> Marketing Director</span>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="testimonial__items">
+              <div class="avatar">
+                <img src="./images/image-emily.jpg" alt="emily" />
+              </div>
+
+              <p>
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </p>
+
+              <div>
+                <h6>Emily R.</h6>
+                <span> Marketing Director</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- IMAGE GALLERY -->
+      <section id="projects" class="image__gallery">
+        <img
+          src="./images/desktop/image-gallery-sugarcubes.jpg"
+          alt="Suger Cubes"
+        />
+        <img src="./images/desktop/image-gallery-cone.jpg" alt="Suger Cubes" />
+        <img
+          src="./images/desktop/image-gallery-sugarcubes.jpg"
+          alt="Suger Cubes"
+        />
+        <img
+          src="./images/desktop/image-gallery-sugarcubes.jpg"
+          alt="Suger Cubes"
+        />
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div>
+          <img src="./images/logo.svg" alt="LOGO" />
+
+          <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+          </ul>
+
+          <div>
+            <a href=""
+              ><img src="./images/icon-facebook.svg" alt="Face book"
+            /></a>
+            <a href=""
+              ><img src="./images/icon-facebook.svg" alt="Face book"
+            /></a>
+            <a href=""
+              ><img src="./images/icon-facebook.svg" alt="Face book"
+            /></a>
+            <a href=""
+              ><img src="./images/icon-facebook.svg" alt="Face book"
+            /></a>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
